@@ -1,0 +1,16 @@
+.header {
+    padding: 30px;
+}
+
+
+.title {
+	display: inline-block;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.icon {
+    margin-left: 20px;
+	font-size: 40px;
+	color: rgb(204, 175, 8);
+}

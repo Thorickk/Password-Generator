@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(217, 227, 233);
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+	margin: 40px auto;
+	border: 1px solid currentColor;
+	border-radius: 8px;
+	background-color: #ebebeb;
+}
+
+.label {
+	font-size: 18px;
+}
+
+.input {
+	margin-left: 30px;
+	padding: 10px;
+	font-size: 18px;
+	width: 70px;
+	border: 1px solid #b3b1b1;
+	border-radius: 8px;
+}
+
+.button {
+	margin: 15px 0;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 8px;
+	background-color: rgb(204, 175, 8);
+	color: #fff;
+	font-size: 20px;
+	transition: background-color 0.4s;
+	cursor: pointer;
+
+	&:hover {
+		background-color: rgb(177, 151, 6);
+	}
+}
+
+.generatedPassword {
+	margin: 20px 0 30px;
+	font-size: 20px;
+}
+
+.password {
+	padding: 15px 0;
+}
+
+.passwordOptions {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 20px;
+}
