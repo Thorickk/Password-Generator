@@ -5,6 +5,7 @@
 }
 
 body {
+	padding: 0 20px;
 	background-color: rgb(217, 227, 233);
 	font-family: 'Roboto Mono', sans-serif;
 }
@@ -19,6 +20,7 @@ body {
 	border: 1px solid currentColor;
 	border-radius: 8px;
 	background-color: #ebebeb;
+	box-shadow: 1px 1px 3px currentColor;
 }
 
 .label {

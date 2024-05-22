@@ -4,7 +4,7 @@ export function Header() {
 	return (
 		<header className={styles.header}>
 			<h1 className={styles.title}>
-				Password Generator<i className={`${styles.icon} fa-solid fa-key`}></i>
+			🔑 Generator Haseł
 			</h1>
 		</header>
 	)

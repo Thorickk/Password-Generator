@@ -45,7 +45,7 @@ function App() {
 	function copyPassword(newPassword) {
 		navigator.clipboard.writeText(newPassword)
 		alert('Pomyślnie skopiowano !')
-	}	
+	}
 
 	return (
 		<>
@@ -54,7 +54,7 @@ function App() {
 				<main>
 					<div>
 						<div>
-							<label className={styles.label} htmlFor='number'>
+							<label className={styles.label} htmlFor='length'>
 								Długość hasła:
 							</label>
 							<input
@@ -62,6 +62,7 @@ function App() {
 								type='number'
 								value={passwordLength}
 								min={1}
+								id='length'
 								onChange={e => setPasswordLength(e.target.value)}
 							/>
 						</div>
@@ -101,7 +102,7 @@ function App() {
 								<Button onClick={() => setShowPassword(prevShowPassword => !prevShowPassword)}>
 									{showPassword ? 'Ukryj' : 'Pokaż'}
 								</Button>
-								<Button onClick={()=> copyPassword(newPassword)}>Kopiuj</Button>
+								<Button onClick={() => copyPassword(newPassword)}>Kopiuj</Button>
 							</div>
 						</div>
 					)}
