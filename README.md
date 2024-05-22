@@ -1,7 +1,7 @@
 ![banner with app's title and logo](./src/assets/Password_Generator_banner.png)
 
 
-**Live project:** [Password Generator](https://www.example.com)
+**Live project:** [Password Generator](https://passwordgenerator-bythorickk.netlify.app)
 
 ## 📜 Description
 
